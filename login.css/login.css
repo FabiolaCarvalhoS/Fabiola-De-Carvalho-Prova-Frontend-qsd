@@ -1,0 +1,56 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    background-color:gray;
+}
+
+.content {
+    background-color:white;
+    border-radius:15px;
+    width:80%;
+    height:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+content::before{
+    content: "";
+    position:absolute;
+}
+
+.login-content {
+    display: flex;
+}
+
+.cadastre-content {
+    display:flex;
+    position: relative;
+}
+
+.login-column{
+    flex:2 0 auto;
+}
+}
+
+.cadastre-column {
+    text-align:center;
+    flex:1 0 00;
+}
+.list-redes-social{
+  display:flex;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+}
+
